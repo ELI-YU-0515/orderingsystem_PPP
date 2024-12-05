@@ -118,43 +118,172 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="M5pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\M5pic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="STOR2pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STOR2pic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="PURPLE TECH" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PURPLE TECH.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="CASE4pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CASE4pic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="M3pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\M3pic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="MEM1pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MEM1pic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="M4pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\M4pic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="M1pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\M1pic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="M2pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\M2pic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="TECH2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\TECH2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="PC" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PC.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="STOR5pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STOR5pic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="CPU1pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\CPU1pic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="CPU2pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\CPU2pic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="M5pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\M5pic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="COOL4pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COOL4pic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MEM5pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MEM5pic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CASE1pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CASE1pic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BG1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BG1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GPU1pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GPU1pic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="M3pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\M3pic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MEM3pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MEM3pic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="COOL1pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COOL1pic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CPU5pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CPU5pic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="CPU3pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\CPU3pic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="LOGO3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LOGO3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MEM7pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MEM7pic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="COOL5pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COOL5pic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MEM9pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MEM9pic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TECH2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TECH2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="COOL3pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COOL3pic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MEM2pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MEM2pic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MEM8pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MEM8pic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PC.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GPU2pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GPU2pic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MEM10pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MEM10pic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STOR3pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STOR3pic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="M1pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\M1pic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STOR8pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STOR8pic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS3pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS3pic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PURPLE TECH" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PURPLE TECH.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MEM6pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MEM6pic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="M4pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\M4pic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STOR9pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STOR9pic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS5pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS5pic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GPU4pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GPU4pic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="CPU4pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\CPU4pic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="CPU5pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\CPU5pic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="CPU2pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CPU2pic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CASE5pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CASE5pic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STOR1pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STOR1pic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS1pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS1pic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STOR4pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STOR4pic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MEM4pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MEM4pic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STOR7pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STOR7pic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STOR10pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STOR10pic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS2pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS2pic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PS4pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PS4pic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GPU5pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GPU5pic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="COOL2pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COOL2pic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CASE2pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CASE2pic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="M2pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\M2pic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STOR6pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STOR6pic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GPU3pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GPU3pic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CASE3pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CASE3pic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LOGO2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LOGO2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

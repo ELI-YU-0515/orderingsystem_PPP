@@ -42,8 +42,6 @@ Partial Class Form1
         Label2 = New Label()
         Label3 = New Label()
         Label4 = New Label()
-        PictureBox9 = New PictureBox()
-        PictureBox10 = New PictureBox()
         Label5 = New Label()
         Label6 = New Label()
         Label7 = New Label()
@@ -60,8 +58,13 @@ Partial Class Form1
         GPU_price = New Label()
         CPU_price = New Label()
         MB_price = New Label()
-        BackgroundWorker1 = New ComponentModel.BackgroundWorker()
         total_price = New Label()
+        PictureBox1 = New PictureBox()
+        PictureBox2 = New PictureBox()
+        prebuild1_btn = New Button()
+        prebuild2_btn = New Button()
+        prebuild3_btn = New Button()
+        buildform_btn = New Button()
         CType(MB_pic, ComponentModel.ISupportInitialize).BeginInit()
         CType(CPU_pic, ComponentModel.ISupportInitialize).BeginInit()
         CType(GPU_pic, ComponentModel.ISupportInitialize).BeginInit()
@@ -70,8 +73,8 @@ Partial Class Form1
         CType(PS_pic, ComponentModel.ISupportInitialize).BeginInit()
         CType(CASE_pic, ComponentModel.ISupportInitialize).BeginInit()
         CType(COOL_pic, ComponentModel.ISupportInitialize).BeginInit()
-        CType(PictureBox9, ComponentModel.ISupportInitialize).BeginInit()
-        CType(PictureBox10, ComponentModel.ISupportInitialize).BeginInit()
+        CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
+        CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' MB_box
@@ -80,78 +83,79 @@ Partial Class Form1
         MB_box.FlatStyle = FlatStyle.Popup
         MB_box.ForeColor = Color.Black
         MB_box.FormattingEnabled = True
-        MB_box.Location = New Point(348, 188)
+        MB_box.Location = New Point(345, 103)
         MB_box.Name = "MB_box"
-        MB_box.Size = New Size(556, 23)
+        MB_box.Size = New Size(415, 23)
         MB_box.TabIndex = 0
         ' 
         ' CPU_box
         ' 
         CPU_box.FlatStyle = FlatStyle.Popup
         CPU_box.FormattingEnabled = True
-        CPU_box.Location = New Point(348, 263)
+        CPU_box.Location = New Point(345, 178)
         CPU_box.Name = "CPU_box"
-        CPU_box.Size = New Size(556, 23)
+        CPU_box.Size = New Size(415, 23)
         CPU_box.TabIndex = 1
         ' 
         ' GPU_box
         ' 
         GPU_box.FlatStyle = FlatStyle.Popup
         GPU_box.FormattingEnabled = True
-        GPU_box.Location = New Point(348, 338)
+        GPU_box.Location = New Point(345, 253)
         GPU_box.Name = "GPU_box"
-        GPU_box.Size = New Size(556, 23)
+        GPU_box.Size = New Size(415, 23)
         GPU_box.TabIndex = 2
         ' 
         ' MEM_box
         ' 
         MEM_box.FlatStyle = FlatStyle.Popup
         MEM_box.FormattingEnabled = True
-        MEM_box.Location = New Point(348, 413)
+        MEM_box.Location = New Point(345, 328)
         MEM_box.Name = "MEM_box"
-        MEM_box.Size = New Size(556, 23)
+        MEM_box.Size = New Size(415, 23)
         MEM_box.TabIndex = 3
         ' 
         ' STOR_box
         ' 
         STOR_box.FlatStyle = FlatStyle.Popup
         STOR_box.FormattingEnabled = True
-        STOR_box.Location = New Point(348, 488)
+        STOR_box.Location = New Point(345, 403)
         STOR_box.Name = "STOR_box"
-        STOR_box.Size = New Size(556, 23)
+        STOR_box.Size = New Size(415, 23)
         STOR_box.TabIndex = 4
         ' 
         ' PS_box
         ' 
         PS_box.FlatStyle = FlatStyle.Popup
         PS_box.FormattingEnabled = True
-        PS_box.Location = New Point(348, 563)
+        PS_box.Location = New Point(345, 478)
         PS_box.Name = "PS_box"
-        PS_box.Size = New Size(556, 23)
+        PS_box.Size = New Size(415, 23)
         PS_box.TabIndex = 5
         ' 
         ' CASE_box
         ' 
         CASE_box.FlatStyle = FlatStyle.Popup
         CASE_box.FormattingEnabled = True
-        CASE_box.Location = New Point(348, 638)
+        CASE_box.Location = New Point(345, 553)
         CASE_box.Name = "CASE_box"
-        CASE_box.Size = New Size(556, 23)
+        CASE_box.Size = New Size(415, 23)
         CASE_box.TabIndex = 6
         ' 
         ' COOL_box
         ' 
         COOL_box.FlatStyle = FlatStyle.Popup
         COOL_box.FormattingEnabled = True
-        COOL_box.Location = New Point(348, 713)
+        COOL_box.Location = New Point(345, 628)
         COOL_box.Name = "COOL_box"
-        COOL_box.Size = New Size(556, 23)
+        COOL_box.Size = New Size(415, 23)
         COOL_box.TabIndex = 7
         ' 
         ' MB_pic
         ' 
+        MB_pic.BackColor = Color.White
         MB_pic.BorderStyle = BorderStyle.Fixed3D
-        MB_pic.Location = New Point(235, 188)
+        MB_pic.Location = New Point(232, 103)
         MB_pic.Name = "MB_pic"
         MB_pic.Size = New Size(60, 60)
         MB_pic.SizeMode = PictureBoxSizeMode.Zoom
@@ -161,8 +165,9 @@ Partial Class Form1
         ' 
         ' CPU_pic
         ' 
+        CPU_pic.BackColor = Color.White
         CPU_pic.BorderStyle = BorderStyle.Fixed3D
-        CPU_pic.Location = New Point(235, 263)
+        CPU_pic.Location = New Point(232, 178)
         CPU_pic.Name = "CPU_pic"
         CPU_pic.Size = New Size(60, 60)
         CPU_pic.SizeMode = PictureBoxSizeMode.Zoom
@@ -172,8 +177,9 @@ Partial Class Form1
         ' 
         ' GPU_pic
         ' 
+        GPU_pic.BackColor = Color.White
         GPU_pic.BorderStyle = BorderStyle.Fixed3D
-        GPU_pic.Location = New Point(235, 338)
+        GPU_pic.Location = New Point(232, 253)
         GPU_pic.Name = "GPU_pic"
         GPU_pic.Size = New Size(60, 60)
         GPU_pic.SizeMode = PictureBoxSizeMode.Zoom
@@ -183,8 +189,9 @@ Partial Class Form1
         ' 
         ' MEM_pic
         ' 
+        MEM_pic.BackColor = Color.White
         MEM_pic.BorderStyle = BorderStyle.Fixed3D
-        MEM_pic.Location = New Point(235, 413)
+        MEM_pic.Location = New Point(232, 328)
         MEM_pic.Name = "MEM_pic"
         MEM_pic.Size = New Size(60, 60)
         MEM_pic.SizeMode = PictureBoxSizeMode.Zoom
@@ -194,8 +201,9 @@ Partial Class Form1
         ' 
         ' STOR_pic
         ' 
+        STOR_pic.BackColor = Color.White
         STOR_pic.BorderStyle = BorderStyle.Fixed3D
-        STOR_pic.Location = New Point(235, 488)
+        STOR_pic.Location = New Point(232, 403)
         STOR_pic.Name = "STOR_pic"
         STOR_pic.Size = New Size(60, 60)
         STOR_pic.SizeMode = PictureBoxSizeMode.Zoom
@@ -205,8 +213,9 @@ Partial Class Form1
         ' 
         ' PS_pic
         ' 
+        PS_pic.BackColor = Color.White
         PS_pic.BorderStyle = BorderStyle.Fixed3D
-        PS_pic.Location = New Point(235, 563)
+        PS_pic.Location = New Point(232, 478)
         PS_pic.Name = "PS_pic"
         PS_pic.Size = New Size(60, 60)
         PS_pic.SizeMode = PictureBoxSizeMode.Zoom
@@ -216,8 +225,9 @@ Partial Class Form1
         ' 
         ' CASE_pic
         ' 
+        CASE_pic.BackColor = Color.White
         CASE_pic.BorderStyle = BorderStyle.Fixed3D
-        CASE_pic.Location = New Point(235, 638)
+        CASE_pic.Location = New Point(232, 553)
         CASE_pic.Name = "CASE_pic"
         CASE_pic.Size = New Size(60, 60)
         CASE_pic.SizeMode = PictureBoxSizeMode.Zoom
@@ -227,8 +237,9 @@ Partial Class Form1
         ' 
         ' COOL_pic
         ' 
+        COOL_pic.BackColor = Color.White
         COOL_pic.BorderStyle = BorderStyle.Fixed3D
-        COOL_pic.Location = New Point(235, 713)
+        COOL_pic.Location = New Point(232, 628)
         COOL_pic.Name = "COOL_pic"
         COOL_pic.Size = New Size(60, 60)
         COOL_pic.SizeMode = PictureBoxSizeMode.Zoom
@@ -240,7 +251,7 @@ Partial Class Form1
         ' 
         Label1.AutoSize = True
         Label1.Font = New Font("Verdana", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label1.Location = New Point(837, 794)
+        Label1.Location = New Point(693, 706)
         Label1.Name = "Label1"
         Label1.Size = New Size(67, 18)
         Label1.TabIndex = 17
@@ -250,7 +261,7 @@ Partial Class Form1
         ' 
         Label2.AutoSize = True
         Label2.Font = New Font("Verdana", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label2.Location = New Point(233, 129)
+        Label2.Location = New Point(230, 44)
         Label2.Name = "Label2"
         Label2.Size = New Size(100, 18)
         Label2.TabIndex = 18
@@ -260,7 +271,7 @@ Partial Class Form1
         ' 
         Label3.AutoSize = True
         Label3.Font = New Font("Verdana", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label3.Location = New Point(54, 129)
+        Label3.Location = New Point(51, 44)
         Label3.Name = "Label3"
         Label3.Size = New Size(122, 18)
         Label3.TabIndex = 19
@@ -270,37 +281,17 @@ Partial Class Form1
         ' 
         Label4.AutoSize = True
         Label4.Font = New Font("Verdana", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label4.Location = New Point(978, 129)
+        Label4.Location = New Point(824, 44)
         Label4.Name = "Label4"
         Label4.Size = New Size(57, 18)
         Label4.TabIndex = 20
         Label4.Text = "PRICE"
         ' 
-        ' PictureBox9
-        ' 
-        PictureBox9.BackColor = Color.SlateBlue
-        PictureBox9.Image = My.Resources.Resources.PC
-        PictureBox9.Location = New Point(1205, -2)
-        PictureBox9.Name = "PictureBox9"
-        PictureBox9.Size = New Size(239, 239)
-        PictureBox9.SizeMode = PictureBoxSizeMode.Zoom
-        PictureBox9.TabIndex = 21
-        PictureBox9.TabStop = False
-        ' 
-        ' PictureBox10
-        ' 
-        PictureBox10.BackColor = Color.SlateBlue
-        PictureBox10.Location = New Point(1205, 234)
-        PictureBox10.Name = "PictureBox10"
-        PictureBox10.Size = New Size(239, 650)
-        PictureBox10.TabIndex = 22
-        PictureBox10.TabStop = False
-        ' 
         ' Label5
         ' 
         Label5.AutoSize = True
         Label5.Font = New Font("Verdana", 9.75F)
-        Label5.Location = New Point(54, 188)
+        Label5.Location = New Point(51, 103)
         Label5.Name = "Label5"
         Label5.Size = New Size(106, 16)
         Label5.TabIndex = 23
@@ -310,7 +301,7 @@ Partial Class Form1
         ' 
         Label6.AutoSize = True
         Label6.Font = New Font("Verdana", 9.75F)
-        Label6.Location = New Point(54, 263)
+        Label6.Location = New Point(51, 178)
         Label6.Name = "Label6"
         Label6.Size = New Size(33, 16)
         Label6.TabIndex = 24
@@ -320,7 +311,7 @@ Partial Class Form1
         ' 
         Label7.AutoSize = True
         Label7.Font = New Font("Verdana", 9.75F)
-        Label7.Location = New Point(54, 338)
+        Label7.Location = New Point(51, 253)
         Label7.Name = "Label7"
         Label7.Size = New Size(33, 16)
         Label7.TabIndex = 25
@@ -330,7 +321,7 @@ Partial Class Form1
         ' 
         Label8.AutoSize = True
         Label8.Font = New Font("Verdana", 9.75F)
-        Label8.Location = New Point(54, 413)
+        Label8.Location = New Point(51, 328)
         Label8.Name = "Label8"
         Label8.Size = New Size(64, 16)
         Label8.TabIndex = 26
@@ -340,7 +331,7 @@ Partial Class Form1
         ' 
         Label9.AutoSize = True
         Label9.Font = New Font("Verdana", 9.75F)
-        Label9.Location = New Point(54, 488)
+        Label9.Location = New Point(51, 403)
         Label9.Name = "Label9"
         Label9.Size = New Size(69, 16)
         Label9.TabIndex = 27
@@ -350,7 +341,7 @@ Partial Class Form1
         ' 
         Label10.AutoSize = True
         Label10.Font = New Font("Verdana", 9.75F)
-        Label10.Location = New Point(54, 563)
+        Label10.Location = New Point(51, 478)
         Label10.Name = "Label10"
         Label10.Size = New Size(108, 16)
         Label10.TabIndex = 28
@@ -360,7 +351,7 @@ Partial Class Form1
         ' 
         Label11.AutoSize = True
         Label11.Font = New Font("Verdana", 9.75F)
-        Label11.Location = New Point(54, 638)
+        Label11.Location = New Point(51, 553)
         Label11.Name = "Label11"
         Label11.Size = New Size(42, 16)
         Label11.TabIndex = 29
@@ -370,7 +361,7 @@ Partial Class Form1
         ' 
         Label12.AutoSize = True
         Label12.Font = New Font("Verdana", 9.75F)
-        Label12.Location = New Point(54, 713)
+        Label12.Location = New Point(51, 628)
         Label12.Name = "Label12"
         Label12.Size = New Size(59, 16)
         Label12.TabIndex = 30
@@ -380,96 +371,180 @@ Partial Class Form1
         ' 
         COOL_price.AutoSize = True
         COOL_price.Font = New Font("Verdana", 9.75F)
-        COOL_price.Location = New Point(978, 713)
+        COOL_price.Location = New Point(824, 628)
         COOL_price.Name = "COOL_price"
-        COOL_price.Size = New Size(59, 16)
+        COOL_price.Size = New Size(58, 16)
         COOL_price.TabIndex = 38
-        COOL_price.Text = "COOLER"
+        COOL_price.Text = "Price: 0"
         ' 
         ' CASE_price
         ' 
         CASE_price.AutoSize = True
         CASE_price.Font = New Font("Verdana", 9.75F)
-        CASE_price.Location = New Point(978, 638)
+        CASE_price.Location = New Point(824, 553)
         CASE_price.Name = "CASE_price"
-        CASE_price.Size = New Size(42, 16)
+        CASE_price.Size = New Size(58, 16)
         CASE_price.TabIndex = 37
-        CASE_price.Text = "CASE"
+        CASE_price.Text = "Price: 0"
         ' 
         ' PS_price
         ' 
         PS_price.AutoSize = True
         PS_price.Font = New Font("Verdana", 9.75F)
-        PS_price.Location = New Point(978, 563)
+        PS_price.Location = New Point(824, 478)
         PS_price.Name = "PS_price"
-        PS_price.Size = New Size(108, 16)
+        PS_price.Size = New Size(58, 16)
         PS_price.TabIndex = 36
-        PS_price.Text = "POWER SUPPLY"
+        PS_price.Text = "Price: 0"
         ' 
         ' STOR_price
         ' 
         STOR_price.AutoSize = True
         STOR_price.Font = New Font("Verdana", 9.75F)
-        STOR_price.Location = New Point(978, 488)
+        STOR_price.Location = New Point(824, 403)
         STOR_price.Name = "STOR_price"
-        STOR_price.Size = New Size(69, 16)
+        STOR_price.Size = New Size(58, 16)
         STOR_price.TabIndex = 35
-        STOR_price.Text = "STORAGE"
+        STOR_price.Text = "Price: 0"
         ' 
         ' MEM_price
         ' 
         MEM_price.AutoSize = True
         MEM_price.Font = New Font("Verdana", 9.75F)
-        MEM_price.Location = New Point(978, 413)
+        MEM_price.Location = New Point(824, 328)
         MEM_price.Name = "MEM_price"
-        MEM_price.Size = New Size(64, 16)
+        MEM_price.Size = New Size(58, 16)
         MEM_price.TabIndex = 34
-        MEM_price.Text = "MEMORY"
+        MEM_price.Text = "Price: 0"
         ' 
         ' GPU_price
         ' 
         GPU_price.AutoSize = True
         GPU_price.Font = New Font("Verdana", 9.75F)
-        GPU_price.Location = New Point(978, 338)
+        GPU_price.Location = New Point(824, 253)
         GPU_price.Name = "GPU_price"
-        GPU_price.Size = New Size(33, 16)
+        GPU_price.Size = New Size(58, 16)
         GPU_price.TabIndex = 33
-        GPU_price.Text = "GPU"
+        GPU_price.Text = "Price: 0"
         ' 
         ' CPU_price
         ' 
         CPU_price.AutoSize = True
         CPU_price.Font = New Font("Verdana", 9.75F)
-        CPU_price.Location = New Point(978, 263)
+        CPU_price.Location = New Point(824, 178)
         CPU_price.Name = "CPU_price"
-        CPU_price.Size = New Size(33, 16)
+        CPU_price.Size = New Size(58, 16)
         CPU_price.TabIndex = 32
-        CPU_price.Text = "CPU"
+        CPU_price.Text = "Price: 0"
         ' 
         ' MB_price
         ' 
         MB_price.AutoSize = True
         MB_price.Font = New Font("Verdana", 9.75F)
-        MB_price.Location = New Point(978, 188)
+        MB_price.Location = New Point(824, 103)
         MB_price.Name = "MB_price"
-        MB_price.Size = New Size(26, 16)
+        MB_price.Size = New Size(58, 16)
         MB_price.TabIndex = 31
-        MB_price.Text = "MB"
+        MB_price.Text = "Price: 0"
         ' 
         ' total_price
         ' 
         total_price.AutoSize = True
         total_price.Font = New Font("Verdana", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        total_price.Location = New Point(978, 794)
+        total_price.Location = New Point(824, 706)
         total_price.Name = "total_price"
         total_price.Size = New Size(0, 18)
         total_price.TabIndex = 39
+        ' 
+        ' PictureBox1
+        ' 
+        PictureBox1.BackgroundImage = My.Resources.Resources.BG1
+        PictureBox1.Location = New Point(1042, -3)
+        PictureBox1.Name = "PictureBox1"
+        PictureBox1.Size = New Size(234, 777)
+        PictureBox1.SizeMode = PictureBoxSizeMode.Zoom
+        PictureBox1.TabIndex = 40
+        PictureBox1.TabStop = False
+        ' 
+        ' PictureBox2
+        ' 
+        PictureBox2.BackgroundImage = My.Resources.Resources.BG1
+        PictureBox2.Image = My.Resources.Resources.LOGO3
+        PictureBox2.Location = New Point(1072, 22)
+        PictureBox2.Name = "PictureBox2"
+        PictureBox2.Size = New Size(180, 172)
+        PictureBox2.SizeMode = PictureBoxSizeMode.Zoom
+        PictureBox2.TabIndex = 41
+        PictureBox2.TabStop = False
+        ' 
+        ' prebuild1_btn
+        ' 
+        prebuild1_btn.BackColor = Color.FromArgb(CByte(181), CByte(11), CByte(244))
+        prebuild1_btn.FlatAppearance.BorderSize = 0
+        prebuild1_btn.FlatStyle = FlatStyle.Popup
+        prebuild1_btn.Font = New Font("Verdana", 11.25F, FontStyle.Bold Or FontStyle.Italic)
+        prebuild1_btn.ForeColor = Color.White
+        prebuild1_btn.Location = New Point(1126, 458)
+        prebuild1_btn.Margin = New Padding(1)
+        prebuild1_btn.Name = "prebuild1_btn"
+        prebuild1_btn.Size = New Size(122, 30)
+        prebuild1_btn.TabIndex = 42
+        prebuild1_btn.Text = "OFFICE"
+        prebuild1_btn.UseVisualStyleBackColor = False
+        ' 
+        ' prebuild2_btn
+        ' 
+        prebuild2_btn.BackColor = Color.FromArgb(CByte(181), CByte(11), CByte(244))
+        prebuild2_btn.FlatAppearance.BorderSize = 0
+        prebuild2_btn.FlatStyle = FlatStyle.Popup
+        prebuild2_btn.Font = New Font("Verdana", 11.25F, FontStyle.Bold Or FontStyle.Italic)
+        prebuild2_btn.ForeColor = Color.White
+        prebuild2_btn.Location = New Point(1126, 501)
+        prebuild2_btn.Margin = New Padding(1)
+        prebuild2_btn.Name = "prebuild2_btn"
+        prebuild2_btn.Size = New Size(122, 30)
+        prebuild2_btn.TabIndex = 43
+        prebuild2_btn.Text = "BUDGET"
+        prebuild2_btn.UseVisualStyleBackColor = False
+        ' 
+        ' prebuild3_btn
+        ' 
+        prebuild3_btn.BackColor = Color.FromArgb(CByte(181), CByte(11), CByte(244))
+        prebuild3_btn.FlatAppearance.BorderSize = 0
+        prebuild3_btn.FlatStyle = FlatStyle.Popup
+        prebuild3_btn.Font = New Font("Verdana", 11.25F, FontStyle.Bold Or FontStyle.Italic)
+        prebuild3_btn.ForeColor = Color.White
+        prebuild3_btn.Location = New Point(1126, 544)
+        prebuild3_btn.Margin = New Padding(1)
+        prebuild3_btn.Name = "prebuild3_btn"
+        prebuild3_btn.Size = New Size(122, 30)
+        prebuild3_btn.TabIndex = 44
+        prebuild3_btn.Text = "HIGH END"
+        prebuild3_btn.UseVisualStyleBackColor = False
+        ' 
+        ' buildform_btn
+        ' 
+        buildform_btn.FlatStyle = FlatStyle.Popup
+        buildform_btn.Font = New Font("Verdana", 11.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        buildform_btn.Location = New Point(1082, 695)
+        buildform_btn.Name = "buildform_btn"
+        buildform_btn.Size = New Size(166, 34)
+        buildform_btn.TabIndex = 45
+        buildform_btn.Text = "BUILD"
+        buildform_btn.UseVisualStyleBackColor = True
         ' 
         ' Form1
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(1444, 881)
+        BackColor = Color.FromArgb(CByte(234), CByte(220), CByte(250))
+        ClientSize = New Size(1276, 773)
+        Controls.Add(buildform_btn)
+        Controls.Add(prebuild3_btn)
+        Controls.Add(prebuild2_btn)
+        Controls.Add(prebuild1_btn)
+        Controls.Add(PictureBox2)
+        Controls.Add(PictureBox1)
         Controls.Add(total_price)
         Controls.Add(COOL_price)
         Controls.Add(CASE_price)
@@ -487,7 +562,6 @@ Partial Class Form1
         Controls.Add(Label7)
         Controls.Add(Label6)
         Controls.Add(Label5)
-        Controls.Add(PictureBox9)
         Controls.Add(Label4)
         Controls.Add(Label3)
         Controls.Add(Label2)
@@ -508,10 +582,9 @@ Partial Class Form1
         Controls.Add(GPU_box)
         Controls.Add(CPU_box)
         Controls.Add(MB_box)
-        Controls.Add(PictureBox10)
         Name = "Form1"
-        Text = "Form1"
-        WindowState = FormWindowState.Maximized
+        StartPosition = FormStartPosition.CenterScreen
+        Text = "Price: 0"
         CType(MB_pic, ComponentModel.ISupportInitialize).EndInit()
         CType(CPU_pic, ComponentModel.ISupportInitialize).EndInit()
         CType(GPU_pic, ComponentModel.ISupportInitialize).EndInit()
@@ -520,8 +593,8 @@ Partial Class Form1
         CType(PS_pic, ComponentModel.ISupportInitialize).EndInit()
         CType(CASE_pic, ComponentModel.ISupportInitialize).EndInit()
         CType(COOL_pic, ComponentModel.ISupportInitialize).EndInit()
-        CType(PictureBox9, ComponentModel.ISupportInitialize).EndInit()
-        CType(PictureBox10, ComponentModel.ISupportInitialize).EndInit()
+        CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
+        CType(PictureBox2, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()
     End Sub
@@ -546,8 +619,6 @@ Partial Class Form1
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents Label4 As Label
-    Friend WithEvents PictureBox9 As PictureBox
-    Friend WithEvents PictureBox10 As PictureBox
     Friend WithEvents Label5 As Label
     Friend WithEvents Label6 As Label
     Friend WithEvents Label7 As Label
@@ -564,8 +635,13 @@ Partial Class Form1
     Friend WithEvents GPU_price As Label
     Friend WithEvents CPU_price As Label
     Friend WithEvents MB_price As Label
-    Friend WithEvents BackgroundWorker1 As System.ComponentModel.BackgroundWorker
     Friend WithEvents total_price As Label
+    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents PictureBox2 As PictureBox
+    Friend WithEvents prebuild1_btn As Button
+    Friend WithEvents prebuild2_btn As Button
+    Friend WithEvents prebuild3_btn As Button
+    Friend WithEvents buildform_btn As Button
 
 
 End Class
